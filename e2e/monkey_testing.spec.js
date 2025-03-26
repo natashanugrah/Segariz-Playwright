@@ -11,7 +11,7 @@ test('Monkey Testing Click Homepage', async ({page}) => {
     await expect(page.locator('#searchbox > input')).toBeVisible();
 })
 
-test.only('Monkey Testing Click Kategori', async ({page}) => {
+test('Monkey Testing Click Kategori', async ({page}) => {
     await LoginWithAccountNonCreatedOrder(page);
     await page.click('#root > div > div.AccountPage_page__2cKCW > div.footer_footer__1lZIc.width-control > div > div:nth-child(2) > div > a');
     await expect(page.locator('#searchbox > input')).toBeVisible();
