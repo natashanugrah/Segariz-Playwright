@@ -1,7 +1,7 @@
 // npx playwright test e2e/referral.spec.js --headed --project=webkit 
 
 import {test, expect} from '@playwright/test';
-import { LoginWithAccountNonCreatedOrder } from './login.spec';
+import { LoginWithAccountNonCreatedOrder } from './login';
 import { setTimeout } from 'timers/promises';
 
 

@@ -4,7 +4,7 @@
 
 
 import {test, expect} from '@playwright/test';
-import { LoginWithAccountNonCreatedOrder } from './login.spec';
+import { LoginWithAccountNonCreatedOrder } from './login';
 
 test('Search Item Ikan on Homepage', async ({page}) => {
     await LoginWithAccountNonCreatedOrder(page);

@@ -3,7 +3,7 @@
 // npx playwright codegen
 
 import {test, expect} from '@playwright/test';
-import { LoginWithAccountNonCreatedOrder } from './login.spec';
+import { LoginWithAccountNonCreatedOrder } from './login';
 
 test('Monkey Testing Click Homepage', async ({page}) => {
     await LoginWithAccountNonCreatedOrder(page);
